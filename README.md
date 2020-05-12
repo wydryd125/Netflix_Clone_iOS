@@ -1,77 +1,108 @@
-## Netflix Clone
+# Netflix Clone
+
+패스트 캠퍼스에서 진행한 팀 프로젝트 입니다.
+
+Backend팀과의 협업으로 기존 Netflix 앱 서비스와 같은 형태의 서비스를 만들어보는 클론 프로젝트 입니다.
 
 
 
-### Description
 
-- 개요: 기존 Netflix 앱 서비스를 기반으로 같은 형태의 서비스를 만들어보는 클론 프로젝트
+## Description
 
-- 개발 기간: 2020.03.30 ~ 2020.04.29
+- 개발 기간: 2020.03.20 ~ 2020.04.29 (약 6주)
 
+- 참여 인원: iOS 4명, Backend 2명   [Organization](https://github.com/FC-NETFLEX)
 
-### Contributors
+- 사용 기술
+  - Language: Swift
+  - FrameWork: UIKit, AVFoundation
+  - Library: SnapKit, KingFisher
 
-- iOS
-
-  - [JeonSangMin](https://github.com/JeonSangMin)
-  - [wydryd125](https://github.com/wydryd125)
-  - [eujin811](https://github.com/eujin811)
-  - [JoongChangYang](https://github.com/JoongChangYang)
-
-- Backend
-
-  - [hbyyy](https://github.com/hbyyy)
-
-  - [parkhongbeen](https://github.com/parkhongbeen)
-
-    
+- 담당 구현 파트
+  - 프로필 CRUD
+  - 더보기 탭 
+  
+  
 
 
+## Implementation
 
-### Target
+### 프로필
 
-- iOS13.0
+![profile](https://user-images.githubusercontent.com/57229970/81154268-b4e9c980-8fbe-11ea-8abd-bf5d7d8a2c18.gif)
 
+- 구현 내용
 
+  - 프로필 생성, 수정 변경 삭제 시 서버와의 통신을 통해 응답 받은 데이터 `JSONSerialization`을 이용한 파싱
+  - 프로필 수정 시 버튼 터치 후  다음 뷰와 자연스럽게 연결되는 프레젠트 애니메이션 
 
-### Xcode
+  
 
-- version: 11.3.1
+- 트러블 슈팅
 
-
-
-###  libraries
-
-- KingFisher
-- Snapkit
+  
 
 
 
-### CommitMessageRules
-
-- Fix: 내용 수정
-- Add: 추가
-- Remove: 삭제
-- Complete: 완료
-- Rename: 이름 변경
+### 콘텐츠 저장
 
 
 
-### Sample Clips
+![more](https://user-images.githubusercontent.com/57229970/81154361-c92dc680-8fbe-11ea-8b92-4ec4b421add9.gif)
 
-| Home                                                         | PlayVideo                                                    | Preview                                                      |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![home](https://user-images.githubusercontent.com/56557507/81056294-45fc6a00-8f05-11ea-9de8-9c53f894409f.gif) | ![PlayVideo](https://user-images.githubusercontent.com/56557507/81054969-ba81d980-8f02-11ea-9b10-982a15fe448e.gif) | ![preview](https://user-images.githubusercontent.com/15086391/81035803-7e854f00-8ed7-11ea-9611-754cdded1ef1.gif) |
+- 구현 내용
+  - 
+  
+  
+  
+- 트러블 슈팅
 
-|                            Search                            |                           Profile                            |                         SaveContent                          |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![search](https://user-images.githubusercontent.com/15086391/81035372-a5428600-8ed5-11ea-85b9-2920e8d61a77.gif) | ![profile](https://user-images.githubusercontent.com/57229970/81154268-b4e9c980-8fbe-11ea-8abd-bf5d7d8a2c18.gif) | ![SaveContent](https://user-images.githubusercontent.com/56557507/81060496-86f87c80-8f0d-11ea-85f0-56f437ed3812.gif) |
+  
+
+## Design
+
+- 플로우 차트 (AdobeXD) : UI 구성과 앱의 흐름을 파악함
+
+  <img src = "https://github.com/JoongChangYang/Netflix_Clone_iOS/blob/master/assets/FlowChart.png"></img>
+
+  
+
+- 명세서 작성 (Keynote): 앱의 상세 기능과 구조를 파악함
+
+  <img src = "https://github.com/JoongChangYang/Netflix_Clone_iOS/blob/master/assets/blueprint.gif"></img>
 
 
 
-|                        Content Detail                        |                             More                             |                            Login                             |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![contents detail](https://user-images.githubusercontent.com/15086391/81036205-2d765a80-8ed9-11ea-8540-bcd3ec32e665.gif) | ![more](https://user-images.githubusercontent.com/57229970/81154361-c92dc680-8fbe-11ea-8b92-4ec4b421add9.gif) | ![Login](https://user-images.githubusercontent.com/56557507/81052547-96bc9480-8efe-11ea-9db2-e3bc7e58350d.gif) |
+## Collaboration
+
+- GitHub
+
+  - Organization에 repository를 만들고 팀원들은 각자 Fork한 repository에 작업 후 pull request를 보내는 방식으로 작업
+
+    <img src = "https://github.com/JoongChangYang/Netflix_Clone_iOS/blob/master/assets/organization.png"></img>
+
+  - project board 를 통한 일정 관리
+
+    <img src = "https://github.com/JoongChangYang/Netflix_Clone_iOS/blob/master/assets/projectboard.png"></img>
+
+  
+
+- Slack: GitHub과의 연동을 통해 issue, pull request등의 실시간 알림
+
+  <img src = "https://github.com/JoongChangYang/Netflix_Clone_iOS/blob/master/assets/slack.png"></img> 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

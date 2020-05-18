@@ -9,19 +9,19 @@ Backend팀과의 협업으로 기존 Netflix와 같은 형태의 서비스를 �
 
 - 개발 기간: 2020.03.20 ~ 2020.04.29 (약 6주)
 
-- 참여 인원: iOS 4명, Backend 2명   [Organization](https://github.com/FC-NETFLEX)
+- 참여 인원: Team Netflex -  iOS 4명, Backend 2명   [Organization](https://github.com/FC-NETFLEX)
 
 - 사용 기술
   - Language: Swift
   - FrameWork: UIKit, AVFoundation
   - Library: SnapKit, KingFisher
+  - 협업 Tool: Slack, Github
+ 
 
-- 담당 구현 파트
+- 담당 구현 파트와 역할
   - 프로필 CRUD
   - 더보기 탭 
   
-  
-
 
 ## Implementation
 
@@ -91,9 +91,22 @@ Backend팀과의 협업으로 기존 Netflix와 같은 형태의 서비스를 �
   <img src = "https://github.com/JoongChangYang/Netflix_Clone_iOS/blob/master/assets/slack.png"></img> 
 
 
+## Troubleshooting
 
+- Github로 프로젝트 관리를 어떻게 효율적으로 할 수 있을지 고민
+	- Team repository를 생성하고 각자 팀원들이 fork하였고 fork한 repository에 작업하는 방식으로 진행
 
+- Backend와의 의사소통 문제
+	- 모든 팀원과 매일 데일리스크럽을 진행하여 팀 간 실시간 의사소통 문제를 해결
 
+- 넷플릭스의 자체 로그인 기능과 어플 내에 없는 회원가입 기능을 구현해야 하는 문제.
+ 	- 넷플릭스의 회원가입은 웹에서만 가능하기 때문에 추가적으로 어플 내에 회원가입 기능을 추가함. 
+ 	- 로그인 기능은 Token이라는 권한을 서버와 주고 받아야 하기 때문에 Backend 개발자와의 실시간 소통이 중요하므로 Backend팀 내 로그인 담당을 정하고 실시간으로 소통하며 문제 해결.
+
+- UI구현에 있어 다양한 기능와 디테일한 요소 구현의 어려움 (테이블뷰안에 콜렉션뷰 넣기, 프로필 수정 시 프레젠트 애니메이션 등등)
+ - stack overflow와  이 전에 배웠던 내용을 다시 살펴보며 문제 해결
+ 
+	
 
 
 

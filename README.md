@@ -95,9 +95,10 @@ Backend팀과의 협업으로 기존 Netflix와 같은 형태의 서비스를 �
 
 - Github로 프로젝트 관리를 어떻게 효율적으로 할 수 있을지 고민
 	
-- Team repository를 생성하고 각자 팀원들이 fork하였고 fork한 repository에 작업하는 방식으로 진행
+	- Team repository를 생성하고 각자 팀원들이 fork하였고 fork한 repository에 작업하는 방식으로 진행
 	
 - Backend와의 의사소통 문제
+	
 	- 모든 팀원과 매일 데일리스크럽을 진행하여 팀 간 실시간 의사소통 문제를 해결
 	
 - 넷플릭스의 자체 로그인 기능과 어플 내에 없는 회원가입 기능을 구현해야 하는 문제.
